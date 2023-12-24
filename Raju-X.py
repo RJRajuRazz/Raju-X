@@ -417,7 +417,7 @@ logo = ("""
 \033[38;5;46m╚════════════════════════╩══════════════════════╝
  """)
 
-class RJ Raju Razz:
+class Morad:
 	def __init__(self):
 		self.id = []
 		self.ok = []
